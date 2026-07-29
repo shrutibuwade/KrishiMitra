@@ -132,35 +132,6 @@ Frontend runs on: `http://localhost:5173`
 
 ---
 
-## 🎯 **Project Structure**
-
-krishimitra/
-├── frontend/
-│ ├── src/
-│ │ ├── pages/ # Login, Register, Home, Community, Profile
-│ │ ├── components/ # Navbar, PostCard, Chatbot
-│ │ ├── styles/ # CSS files
-│ │ ├── utils/ # Translator, helpers
-│ │ └── i18n/ # Translations (English & Hindi)
-│ ├── package.json
-│ └── vite.config.js
-│
-├── backend/
-│ ├── src/main/java/com/farmerassistant/backend/
-│ │ ├── controller/ # API endpoints
-│ │ ├── service/ # Business logic
-│ │ ├── model/ # JPA entities
-│ │ ├── repository/ # Database queries
-│ │ ├── dto/ # Data transfer objects
-│ │ ├── config/ # Spring configuration
-│ │ └── security/ # JWT authentication
-│ ├── src/main/resources/
-│ │ └── application.properties
-│ └── pom.xml
-│
-└── README.md
-
----
 
 ## 🚀 **How to Use**
 
@@ -219,14 +190,6 @@ krishimitra/
 
 ---
 
-## 🌐 **Multi-Language Support**
-
-The app supports **English** and **Hindi**:
-- Click **EN | हि** in navbar to switch languages
-- All UI text translates instantly
-- User posts remain in original language
-
----
 
 ## 🔐 **Security Features**
 
