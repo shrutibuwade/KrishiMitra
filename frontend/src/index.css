@@ -1,0 +1,13 @@
+@import './styles/colors.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+main, .page-content {
+  margin-top: 70px;
+}

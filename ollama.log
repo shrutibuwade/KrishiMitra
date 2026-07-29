@@ -1,0 +1,747 @@
+time=2026-07-29T02:22:34.739+05:30 level=INFO source=routes.go:1947 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: LLAMA_ARG_FIT: LLAMA_ARG_FIT_TARGET: NO_PROXY: OLLAMA_CONTEXT_LENGTH:0 OLLAMA_DEBUG:INFO OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GO_TEMPLATE:true OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11434 OLLAMA_IGPU_ENABLE: OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MAX_TRANSFER_STREAMS:4 OLLAMA_MODELS:C:\\Users\\Shruti\\.ollama\\models OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:true ROCR_VISIBLE_DEVICES:]"
+time=2026-07-29T02:22:34.741+05:30 level=INFO source=routes.go:1949 msg="Ollama cloud disabled: false"
+time=2026-07-29T02:22:34.850+05:30 level=INFO source=images.go:883 msg="total blobs: 5"
+time=2026-07-29T02:22:34.852+05:30 level=INFO source=images.go:890 msg="total unused blobs removed: 0"
+time=2026-07-29T02:22:34.858+05:30 level=INFO source=routes.go:2004 msg="Listening on 127.0.0.1:11434 (version 0.31.2)"
+time=2026-07-29T02:22:34.966+05:30 level=INFO source=runner.go:60 msg="discovering available GPUs..."
+time=2026-07-29T02:22:35.221+05:30 level=INFO source=model_list_cache.go:112 msg="model list cache hydration complete" models=1 failures=0 elapsed=363.0084ms
+time=2026-07-29T02:22:35.637+05:30 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=3h36m28.42772658s consecutive_failures=0
+time=2026-07-29T02:22:56.995+05:30 level=INFO source=runner.go:405 msg="dropping integrated GPU; to enable, set OLLAMA_IGPU_ENABLE=1" id=0 library=Vulkan compute=0.0 name=Vulkan0 description="Intel(R) Iris(R) Xe Graphics" pci_id=""
+time=2026-07-29T02:22:56.997+05:30 level=INFO source=types.go:50 msg="inference compute" id=cpu library=cpu compute="" name=cpu description=cpu libdirs=ollama driver="" pci_id="" type="" total="7.8 GiB" available="363.8 MiB"
+time=2026-07-29T02:22:56.997+05:30 level=INFO source=routes.go:2054 msg="vram-based default context" total_vram="0 B" default_num_ctx=4096
+time=2026-07-29T02:30:51.247+05:30 level=INFO source=sched.go:1158 msg="disabling mmap for llama-server load by default" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f reason=cpu
+time=2026-07-29T02:30:51.250+05:30 level=INFO source=server.go:109 msg="using llama-server for model" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T02:30:51.293+05:30 level=INFO source=llama_server.go:433 msg="starting llama-server" cmd="C:\\Users\\Shruti\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe --model C:\\Users\\Shruti\\.ollama\\models\\blobs\\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f --port 57698 --host 127.0.0.1 --no-webui --offline -c 4096 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --no-jinja --chat-template chatml --no-mmap --flash-attn auto -b 512 -ub 512 --context-shift --keep 4"
+time=2026-07-29T02:30:51.322+05:30 level=INFO source=sched.go:623 msg="system memory" total="7.8 GiB" free="1.0 GiB" free_swap="3.5 GiB"
+time=2026-07-29T02:30:51.323+05:30 level=INFO source=llama_server.go:1001 msg="loading model via llama-server" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T02:30:51.323+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T02:30:51.334+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server error"
+cmn  common_param: common_params_print_info: build 1 (cb295bf59) with Clang 18.1.8 for Windows AMD64
+cmn  common_param: common_params_print_info: verbosity = 4 (adjust with the `-lv N` CLI arg)
+cmn  common_param: device_info:
+cmn  common_param:   - CPU     : 11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz (7941 MiB, 1014 MiB free)
+cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 8 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+srv          init: using 7 threads for HTTP server
+srv          init: The UI is disabled
+srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+srv         start: binding port with default address family
+srv    load_model: loading model 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+srv    load_model: local path 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+cmn  common_init_: fitting params to device memory ...
+cmn  common_init_: (for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on)
+common_params_fit_impl: getting device memory data for initial parameters:
+time=2026-07-29T02:30:51.589+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+common_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+common_memory_breakdown_print: |   - Host               |                 1597 =   965 +     512 +     120                |
+common_memory_breakdown_print: |   - CPU_REPACK         |                 3204 =  3204 +       0 +       0                |
+common_params_fit_impl: projected to use 1597 MiB of host memory vs. 7941 MiB of total host memory
+common_params_fit_impl: will leave 6344 >= 1024 MiB of system memory, no changes needed
+common_fit_params: successfully fit params to free device memory
+common_fit_params: fitting params to free memory took 0.15 seconds
+llama_model_loader: loaded meta data with 25 key-value pairs and 291 tensors from C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = Mistral-7B-Instruct-v0.3
+llama_model_loader: - kv   2:                          llama.block_count u32              = 32
+llama_model_loader: - kv   3:                       llama.context_length u32              = 32768
+llama_model_loader: - kv   4:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 14336
+llama_model_loader: - kv   6:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   7:              llama.attention.head_count_kv u32              = 8
+llama_model_loader: - kv   8:                       llama.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                          general.file_type u32              = 15
+llama_model_loader: - kv  11:                           llama.vocab_size u32              = 32768
+llama_model_loader: - kv  12:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv  13:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  14:                         tokenizer.ggml.pre str              = default
+llama_model_loader: - kv  15:                      tokenizer.ggml.tokens arr[str,32768]   = ["<unk>", "<s>", "</s>", "[INST]", "[...
+llama_model_loader: - kv  16:                      tokenizer.ggml.scores arr[f32,32768]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,32768]   = [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ...
+llama_model_loader: - kv  18:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  19:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  20:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  21:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  22:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  23:                    tokenizer.chat_template str              = {{ bos_token }}{% for message in mess...
+llama_model_loader: - kv  24:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q4_K:  193 tensors
+llama_model_loader: - type q6_K:   33 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 4.07 GiB (4.83 BPW) 
+load: 0 unused tokens
+load: printing all EOG tokens:
+load:   - 2 ('</s>')
+load: special tokens cache size = 771
+load: token to piece cache size = 0.1731 MB
+print_info: arch                  = llama
+print_info: vocab_only            = 0
+print_info: no_alloc              = 0
+print_info: n_ctx_train           = 32768
+print_info: n_embd_inp            = 4096
+print_info: n_embd                = 4096
+print_info: n_embd_out            = 4096
+print_info: n_layer               = 32
+print_info: n_layer_all           = 32
+print_info: n_head                = 32
+print_info: n_head_kv             = 8
+print_info: n_rot                 = 128
+print_info: n_swa                 = 0
+print_info: is_swa_any            = 0
+print_info: n_embd_head_k         = 128
+print_info: n_embd_head_v         = 128
+print_info: n_gqa                 = 4
+print_info: n_embd_k_gqa          = 1024
+print_info: n_embd_v_gqa          = 1024
+print_info: f_norm_eps            = 0.0e+00
+print_info: f_norm_rms_eps        = 1.0e-05
+print_info: f_clamp_kqv           = 0.0e+00
+print_info: f_max_alibi_bias      = 0.0e+00
+print_info: f_logit_scale         = 0.0e+00
+print_info: f_attn_scale          = 0.0e+00
+print_info: f_attn_value_scale    = 0.0000
+print_info: n_ff                  = 14336
+print_info: n_expert              = 0
+print_info: n_expert_used         = 0
+print_info: n_expert_groups       = 0
+print_info: n_group_used          = 0
+print_info: causal attn           = 1
+print_info: pooling type          = -1
+print_info: rope type             = 0
+print_info: rope scaling          = linear
+print_info: freq_base_train       = 1000000.0
+print_info: freq_scale_train      = 1
+print_info: n_ctx_orig_yarn       = 32768
+print_info: rope_yarn_log_mul     = 0.0000
+print_info: rope_finetuned        = unknown
+print_info: model type            = 7B
+print_info: model params          = 7.25 B
+print_info: general.name          = Mistral-7B-Instruct-v0.3
+print_info: vocab type            = SPM
+print_info: n_vocab               = 32768
+print_info: n_merges              = 0
+print_info: BOS token             = 1 '<s>'
+print_info: EOS token             = 2 '</s>'
+print_info: UNK token             = 0 '<unk>'
+print_info: LF token              = 781 '<0x0A>'
+print_info: EOG token             = 2 '</s>'
+print_info: max token length      = 48
+load_tensors: loading model tensors, this can take a while... (mmap = false, direct_io = false)
+time=2026-07-29T02:30:52.042+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+load_tensors:          CPU model buffer size =   965.52 MiB
+load_tensors:   CPU_REPACK model buffer size =  3204.00 MiB
+time=2026-07-29T02:30:52.295+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T02:31:03.084+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T02:31:03.502+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T02:31:05.903+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T02:31:06.422+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T02:31:07.625+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T02:31:08.072+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T02:31:08.633+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T02:31:09.474+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T02:31:12.320+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T02:31:12.672+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+cmn  common_init_: added </s> logit bias = -inf
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 4096
+llama_context: n_ctx_seq     = 4096
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context: n_rs_seq      = 0
+llama_context: n_outputs_max = 1
+llama_context: n_ctx_seq (4096) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+llama_context:        CPU  output buffer size =     0.13 MiB
+llama_kv_cache:        CPU KV buffer size =   512.00 MiB
+llama_kv_cache: size =  512.00 MiB (  4096 cells,  32 layers,  1/1 seqs), K (f16):  256.00 MiB, V (f16):  256.00 MiB
+llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 128
+llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 128
+sched_reserve: reserving ...
+sched_reserve: Flash Attention was auto, set to enabled
+sched_reserve: resolving fused Gated Delta Net support:
+sched_reserve: fused Gated Delta Net (autoregressive) enabled
+sched_reserve: fused Gated Delta Net (chunked) enabled
+sched_reserve:        CPU compute buffer size =   120.01 MiB
+sched_reserve: graph nodes  = 998
+sched_reserve: graph splits = 1
+sched_reserve: reserve took 14.17 ms, sched copies = 1
+cmn  common_init_: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+srv    load_model: initializing, n_slots = 1, n_ctx_slot = 4096, kv_unified = 'false'
+spec common_specu: no implementations specified for speculative decoding
+slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096
+srv    load_model: prompt cache is enabled, size limit: 8192 MiB
+srv    load_model: use `--cache-ram 0` to disable the prompt cache
+srv    load_model: for more info see https://github.com/ggml-org/llama.cpp/pull/16391
+srv    load_model: context checkpoints enabled, max = 32, min spacing = 8192
+srv          init: idle slots will be saved to prompt cache upon starting a new task
+srv          init: init: chat template, example_format: '<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+'
+srv          init: init: chat template, thinking = 0
+srv  llama_server: model loaded
+srv  llama_server: listening on http://127.0.0.1:57698
+srv  update_slots: all slots are idle
+time=2026-07-29T02:31:28.238+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 36.91 seconds"
+time=2026-07-29T02:31:28.326+05:30 level=INFO source=images.go:373 msg="template selection" model=registry.ollama.ai/library/mistral:latest selected=go_template renderer="" parser="" go_template="[completion tools]" chat_template=[completion] harmony=null renderer_parser=null
+time=2026-07-29T02:31:28.330+05:30 level=INFO source=sched.go:739 msg="loaded runners" count=1
+time=2026-07-29T02:31:28.331+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T02:31:28.335+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 37.01 seconds"
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+srv  get_availabl: updating prompt cache
+srv          load:  - looking for better prompt, base f_keep = -1.000, sim = 0.000
+srv        update:  - cache state: 0 prompts, 0.000 MiB (limits: 8192.000 MiB, 4096 tokens, 8589934592 est)
+srv  get_availabl: prompt cache update took 0.03 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 5
+slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)
+slot init_sampler: id  0 | task 0 | init sampler, took 0.25 ms, tokens: text = 5, total = 5
+srv  stream_sessi: conv_id= (empty=1)
+slot print_timing: id  0 | task 0 | prompt eval time =    5092.45 ms /     5 tokens ( 1018.49 ms per token,     0.98 tokens per second)
+slot print_timing: id  0 | task 0 |        eval time =  142855.82 ms /    95 tokens ( 1503.75 ms per token,     0.67 tokens per second)
+slot print_timing: id  0 | task 0 |       total time =  147948.27 ms /   100 tokens
+slot print_timing: id  0 | task 0 |    graphs reused =         94
+slot      release: id  0 | task 0 | stop processing: n_tokens = 99, truncated = 0
+srv  update_slots: all slots are idle
+[GIN] 2026/07/29 - 02:33:56 | 200 |          3m6s |       127.0.0.1 | POST     "/api/generate"
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.200 (> 0.100 thold), f_keep = 0.030
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 99, total state size = 12.377 MiB (draft: 0.000 MiB)
+srv          load:  - looking for better prompt, base f_keep = 0.030, sim = 0.200
+srv        update:  - cache state: 1 prompts, 12.377 MiB (limits: 8192.000 MiB, 4096 tokens, 65526 est)
+srv        update:    - prompt 000002856F0026A0:      99 tokens, checkpoints:  0,    12.377 MiB
+srv  get_availabl: prompt cache update took 57.30 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 96 | processing task, is_child = 0
+slot   operator(): id  0 | task 96 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 15
+slot   operator(): id  0 | task 96 | cached n_tokens = 3, memory_seq_rm [3, end)
+srv  stream_sessi: conv_id= (empty=1)
+slot init_sampler: id  0 | task 96 | init sampler, took 0.02 ms, tokens: text = 15, total = 15
+[GIN] 2026/07/29 - 02:35:25 | 500 |         1m28s |       127.0.0.1 | POST     "/api/generate"
+srv          stop: cancel task, id_task = 96
+slot      release: id  0 | task 96 | stop processing: n_tokens = 69, truncated = 0
+srv  update_slots: all slots are idle
+time=2026-07-29T11:58:52.201+05:30 level=WARN source=model_recommendations.go:168 msg="model recommendations refresh failed" error="Get \"https://ollama.com/api/experimental/model-recommendations\": context deadline exceeded"
+time=2026-07-29T11:58:52.206+05:30 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4m12.709246313s consecutive_failures=1
+time=2026-07-29T12:03:05.483+05:30 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h35m18.273140135s consecutive_failures=0
+time=2026-07-29T12:11:12.980+05:30 level=INFO source=sched.go:1158 msg="disabling mmap for llama-server load by default" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f reason=cpu
+time=2026-07-29T12:11:12.983+05:30 level=INFO source=server.go:109 msg="using llama-server for model" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T12:11:12.996+05:30 level=INFO source=llama_server.go:433 msg="starting llama-server" cmd="C:\\Users\\Shruti\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe --model C:\\Users\\Shruti\\.ollama\\models\\blobs\\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f --port 63427 --host 127.0.0.1 --no-webui --offline -c 4096 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --no-jinja --chat-template chatml --no-mmap --flash-attn auto -b 512 -ub 512 --context-shift --keep 4"
+time=2026-07-29T12:11:13.180+05:30 level=INFO source=sched.go:623 msg="system memory" total="7.8 GiB" free="983.3 MiB" free_swap="7.4 GiB"
+time=2026-07-29T12:11:13.181+05:30 level=INFO source=llama_server.go:1001 msg="loading model via llama-server" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T12:11:13.181+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T12:11:13.189+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server error"
+cmn  common_param: common_params_print_info: build 1 (cb295bf59) with Clang 18.1.8 for Windows AMD64
+cmn  common_param: common_params_print_info: verbosity = 4 (adjust with the `-lv N` CLI arg)
+cmn  common_param: device_info:
+cmn  common_param:   - CPU     : 11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz (7941 MiB, 937 MiB free)
+cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 8 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+srv          init: using 7 threads for HTTP server
+srv          init: The UI is disabled
+srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+srv         start: binding port with default address family
+srv    load_model: loading model 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+srv    load_model: local path 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+cmn  common_init_: fitting params to device memory ...
+cmn  common_init_: (for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on)
+common_params_fit_impl: getting device memory data for initial parameters:
+common_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+common_memory_breakdown_print: |   - Host               |                 1597 =   965 +     512 +     120                |
+common_memory_breakdown_print: |   - CPU_REPACK         |                 3204 =  3204 +       0 +       0                |
+common_params_fit_impl: projected to use 1597 MiB of host memory vs. 7941 MiB of total host memory
+common_params_fit_impl: will leave 6344 >= 1024 MiB of system memory, no changes needed
+common_fit_params: successfully fit params to free device memory
+common_fit_params: fitting params to free memory took 0.03 seconds
+llama_model_loader: loaded meta data with 25 key-value pairs and 291 tensors from C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = Mistral-7B-Instruct-v0.3
+llama_model_loader: - kv   2:                          llama.block_count u32              = 32
+llama_model_loader: - kv   3:                       llama.context_length u32              = 32768
+llama_model_loader: - kv   4:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 14336
+llama_model_loader: - kv   6:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   7:              llama.attention.head_count_kv u32              = 8
+llama_model_loader: - kv   8:                       llama.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                          general.file_type u32              = 15
+llama_model_loader: - kv  11:                           llama.vocab_size u32              = 32768
+llama_model_loader: - kv  12:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv  13:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  14:                         tokenizer.ggml.pre str              = default
+llama_model_loader: - kv  15:                      tokenizer.ggml.tokens arr[str,32768]   = ["<unk>", "<s>", "</s>", "[INST]", "[...
+llama_model_loader: - kv  16:                      tokenizer.ggml.scores arr[f32,32768]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,32768]   = [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ...
+llama_model_loader: - kv  18:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  19:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  20:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  21:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  22:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  23:                    tokenizer.chat_template str              = {{ bos_token }}{% for message in mess...
+llama_model_loader: - kv  24:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q4_K:  193 tensors
+llama_model_loader: - type q6_K:   33 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 4.07 GiB (4.83 BPW) 
+load: 0 unused tokens
+load: printing all EOG tokens:
+load:   - 2 ('</s>')
+load: special tokens cache size = 771
+load: token to piece cache size = 0.1731 MB
+print_info: arch                  = llama
+print_info: vocab_only            = 0
+print_info: no_alloc              = 0
+print_info: n_ctx_train           = 32768
+print_info: n_embd_inp            = 4096
+print_info: n_embd                = 4096
+print_info: n_embd_out            = 4096
+print_info: n_layer               = 32
+print_info: n_layer_all           = 32
+print_info: n_head                = 32
+print_info: n_head_kv             = 8
+print_info: n_rot                 = 128
+print_info: n_swa                 = 0
+print_info: is_swa_any            = 0
+print_info: n_embd_head_k         = 128
+print_info: n_embd_head_v         = 128
+print_info: n_gqa                 = 4
+print_info: n_embd_k_gqa          = 1024
+print_info: n_embd_v_gqa          = 1024
+print_info: f_norm_eps            = 0.0e+00
+print_info: f_norm_rms_eps        = 1.0e-05
+print_info: f_clamp_kqv           = 0.0e+00
+print_info: f_max_alibi_bias      = 0.0e+00
+print_info: f_logit_scale         = 0.0e+00
+print_info: f_attn_scale          = 0.0e+00
+print_info: f_attn_value_scale    = 0.0000
+print_info: n_ff                  = 14336
+print_info: n_expert              = 0
+print_info: n_expert_used         = 0
+print_info: n_expert_groups       = 0
+print_info: n_group_used          = 0
+print_info: causal attn           = 1
+print_info: pooling type          = -1
+print_info: rope type             = 0
+print_info: rope scaling          = linear
+print_info: freq_base_train       = 1000000.0
+print_info: freq_scale_train      = 1
+print_info: n_ctx_orig_yarn       = 32768
+print_info: rope_yarn_log_mul     = 0.0000
+print_info: rope_finetuned        = unknown
+print_info: model type            = 7B
+print_info: model params          = 7.25 B
+print_info: general.name          = Mistral-7B-Instruct-v0.3
+print_info: vocab type            = SPM
+print_info: n_vocab               = 32768
+print_info: n_merges              = 0
+print_info: BOS token             = 1 '<s>'
+print_info: EOS token             = 2 '</s>'
+print_info: UNK token             = 0 '<unk>'
+print_info: LF token              = 781 '<0x0A>'
+print_info: EOG token             = 2 '</s>'
+print_info: max token length      = 48
+load_tensors: loading model tensors, this can take a while... (mmap = false, direct_io = false)
+load_tensors:          CPU model buffer size =   965.52 MiB
+load_tensors:   CPU_REPACK model buffer size =  3204.00 MiB
+time=2026-07-29T12:11:14.950+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+cmn  common_init_: added </s> logit bias = -inf
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 4096
+llama_context: n_ctx_seq     = 4096
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context: n_rs_seq      = 0
+llama_context: n_outputs_max = 1
+llama_context: n_ctx_seq (4096) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+llama_context:        CPU  output buffer size =     0.13 MiB
+llama_kv_cache:        CPU KV buffer size =   512.00 MiB
+llama_kv_cache: size =  512.00 MiB (  4096 cells,  32 layers,  1/1 seqs), K (f16):  256.00 MiB, V (f16):  256.00 MiB
+llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 128
+llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 128
+sched_reserve: reserving ...
+sched_reserve: Flash Attention was auto, set to enabled
+sched_reserve: resolving fused Gated Delta Net support:
+sched_reserve: fused Gated Delta Net (autoregressive) enabled
+sched_reserve: fused Gated Delta Net (chunked) enabled
+sched_reserve:        CPU compute buffer size =   120.01 MiB
+sched_reserve: graph nodes  = 998
+sched_reserve: graph splits = 1
+sched_reserve: reserve took 112.11 ms, sched copies = 1
+cmn  common_init_: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+srv    load_model: initializing, n_slots = 1, n_ctx_slot = 4096, kv_unified = 'false'
+spec common_specu: no implementations specified for speculative decoding
+slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096
+srv    load_model: prompt cache is enabled, size limit: 8192 MiB
+srv    load_model: use `--cache-ram 0` to disable the prompt cache
+srv    load_model: for more info see https://github.com/ggml-org/llama.cpp/pull/16391
+srv    load_model: context checkpoints enabled, max = 32, min spacing = 8192
+srv          init: idle slots will be saved to prompt cache upon starting a new task
+srv          init: init: chat template, example_format: '<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+'
+srv          init: init: chat template, thinking = 0
+srv  llama_server: model loaded
+srv  llama_server: listening on http://127.0.0.1:63427
+srv  update_slots: all slots are idle
+time=2026-07-29T12:11:39.969+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 26.79 seconds"
+time=2026-07-29T12:11:40.045+05:30 level=INFO source=images.go:373 msg="template selection" model=registry.ollama.ai/library/mistral:latest selected=go_template renderer="" parser="" go_template="[completion tools]" chat_template=[completion] harmony=null renderer_parser=null
+time=2026-07-29T12:11:40.048+05:30 level=INFO source=sched.go:739 msg="loaded runners" count=1
+time=2026-07-29T12:11:40.048+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T12:11:40.051+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 26.87 seconds"
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+srv  get_availabl: updating prompt cache
+srv          load:  - looking for better prompt, base f_keep = -1.000, sim = 0.000
+srv        update:  - cache state: 0 prompts, 0.000 MiB (limits: 8192.000 MiB, 4096 tokens, 8589934592 est)
+srv  get_availabl: prompt cache update took 0.37 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 5
+slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)
+slot init_sampler: id  0 | task 0 | init sampler, took 0.26 ms, tokens: text = 5, total = 5
+srv  stream_sessi: conv_id= (empty=1)
+[GIN] 2026/07/29 - 12:16:12 | 500 |          5m0s |       127.0.0.1 | POST     "/api/generate"
+srv          stop: cancel task, id_task = 0
+slot      release: id  0 | task 0 | stop processing: n_tokens = 53, truncated = 0
+srv  update_slots: all slots are idle
+[GIN] 2026/07/29 - 12:16:30 | 200 |        1.08ms |       127.0.0.1 | HEAD     "/"
+[GIN] 2026/07/29 - 12:16:30 | 200 |      9.4929ms |       127.0.0.1 | GET      "/api/tags"
+[GIN] 2026/07/29 - 12:16:49 | 200 |            0s |       127.0.0.1 | HEAD     "/"
+[GIN] 2026/07/29 - 12:16:49 | 200 |    100.6695ms |       127.0.0.1 | POST     "/api/show"
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.375 (> 0.100 thold), f_keep = 0.057
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 53, total state size = 6.626 MiB (draft: 0.000 MiB)
+srv          load:  - looking for better prompt, base f_keep = 0.057, sim = 0.375
+srv        update:  - cache state: 1 prompts, 6.626 MiB (limits: 8192.000 MiB, 4096 tokens, 65522 est)
+srv        update:    - prompt 000001FF83223730:      53 tokens, checkpoints:  0,     6.626 MiB
+srv  get_availabl: prompt cache update took 24.93 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 51 | processing task, is_child = 0
+slot   operator(): id  0 | task 51 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 8
+slot   operator(): id  0 | task 51 | cached n_tokens = 3, memory_seq_rm [3, end)
+slot init_sampler: id  0 | task 51 | init sampler, took 0.01 ms, tokens: text = 8, total = 8
+srv  stream_sessi: conv_id= (empty=1)
+[GIN] 2026/07/29 - 12:23:41 | 200 |     38.0807ms |       127.0.0.1 | GET      "/api/tags"
+slot print_timing: id  0 | task 51 | n_decoded =    100, tg =   0.24 t/s, tg_3s =   0.24 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    110, tg =   0.27 t/s, tg_3s =   3.24 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    119, tg =   0.29 t/s, tg_3s =   2.99 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    122, tg =   0.29 t/s, tg_3s =   0.84 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    131, tg =   0.31 t/s, tg_3s =   2.79 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    136, tg =   0.32 t/s, tg_3s =   0.70 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    137, tg =   0.32 t/s, tg_3s =   0.27 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    138, tg =   0.31 t/s, tg_3s =   0.17 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    139, tg =   0.31 t/s, tg_3s =   0.18 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    140, tg =   0.31 t/s, tg_3s =   0.16 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    141, tg =   0.31 t/s, tg_3s =   0.21 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    142, tg =   0.31 t/s, tg_3s =   0.21 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    143, tg =   0.31 t/s, tg_3s =   0.26 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    144, tg =   0.31 t/s, tg_3s =   0.32 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    145, tg =   0.31 t/s, tg_3s =   0.28 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    146, tg =   0.31 t/s, tg_3s =   0.25 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    147, tg =   0.31 t/s, tg_3s =   0.28 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    148, tg =   0.31 t/s, tg_3s =   0.22 t/s
+[GIN] 2026/07/29 - 12:25:06 | 200 |      22.436ms |       127.0.0.1 | GET      "/api/tags"
+slot print_timing: id  0 | task 51 | n_decoded =    149, tg =   0.30 t/s, tg_3s =   0.20 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    150, tg =   0.30 t/s, tg_3s =   0.19 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    151, tg =   0.30 t/s, tg_3s =   0.23 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    152, tg =   0.30 t/s, tg_3s =   0.22 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    153, tg =   0.30 t/s, tg_3s =   0.26 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    158, tg =   0.31 t/s, tg_3s =   1.61 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    171, tg =   0.33 t/s, tg_3s =   4.05 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    181, tg =   0.35 t/s, tg_3s =   3.27 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    191, tg =   0.37 t/s, tg_3s =   3.27 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    195, tg =   0.37 t/s, tg_3s =   1.30 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    210, tg =   0.40 t/s, tg_3s =   4.91 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    228, tg =   0.43 t/s, tg_3s =   5.76 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    243, tg =   0.46 t/s, tg_3s =   5.00 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    256, tg =   0.48 t/s, tg_3s =   3.99 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    266, tg =   0.49 t/s, tg_3s =   3.32 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    275, tg =   0.51 t/s, tg_3s =   2.98 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    277, tg =   0.51 t/s, tg_3s =   0.40 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    279, tg =   0.51 t/s, tg_3s =   0.66 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    286, tg =   0.52 t/s, tg_3s =   2.03 t/s
+slot print_timing: id  0 | task 51 | n_decoded =    298, tg =   0.54 t/s, tg_3s =   3.81 t/s
+slot print_timing: id  0 | task 51 | prompt eval time =    7646.80 ms /     5 tokens ( 1529.36 ms per token,     0.65 tokens per second)
+slot print_timing: id  0 | task 51 |        eval time =  556638.00 ms /   301 tokens ( 1849.30 ms per token,     0.54 tokens per second)
+slot print_timing: id  0 | task 51 |       total time =  564284.80 ms /   306 tokens
+slot print_timing: id  0 | task 51 |    graphs reused =        346
+slot      release: id  0 | task 51 | stop processing: n_tokens = 308, truncated = 0
+srv  update_slots: all slots are idle
+[GIN] 2026/07/29 - 12:26:14 | 200 |         9m25s |       127.0.0.1 | POST     "/api/generate"
+time=2026-07-29T12:32:24.644+05:30 level=INFO source=sched.go:1158 msg="disabling mmap for llama-server load by default" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f reason=cpu
+time=2026-07-29T12:32:24.645+05:30 level=INFO source=server.go:109 msg="using llama-server for model" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T12:32:24.665+05:30 level=INFO source=llama_server.go:433 msg="starting llama-server" cmd="C:\\Users\\Shruti\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe --model C:\\Users\\Shruti\\.ollama\\models\\blobs\\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f --port 50139 --host 127.0.0.1 --no-webui --offline -c 4096 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --no-jinja --chat-template chatml --no-mmap --flash-attn auto -b 512 -ub 512 --context-shift --keep 4"
+time=2026-07-29T12:32:24.673+05:30 level=INFO source=sched.go:623 msg="system memory" total="7.8 GiB" free="720.0 MiB" free_swap="6.3 GiB"
+time=2026-07-29T12:32:24.673+05:30 level=INFO source=llama_server.go:1001 msg="loading model via llama-server" model=C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f
+time=2026-07-29T12:32:24.673+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T12:32:24.677+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server error"
+cmn  common_param: common_params_print_info: build 1 (cb295bf59) with Clang 18.1.8 for Windows AMD64
+cmn  common_param: common_params_print_info: verbosity = 4 (adjust with the `-lv N` CLI arg)
+cmn  common_param: device_info:
+cmn  common_param:   - CPU     : 11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz (7941 MiB, 693 MiB free)
+cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 8 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+srv          init: using 7 threads for HTTP server
+srv          init: The UI is disabled
+srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+srv         start: binding port with default address family
+srv    load_model: loading model 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+srv    load_model: local path 'C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f'
+cmn  common_init_: fitting params to device memory ...
+cmn  common_init_: (for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on)
+common_params_fit_impl: getting device memory data for initial parameters:
+common_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+common_memory_breakdown_print: |   - Host               |                 1597 =   965 +     512 +     120                |
+common_memory_breakdown_print: |   - CPU_REPACK         |                 3204 =  3204 +       0 +       0                |
+common_params_fit_impl: projected to use 1597 MiB of host memory vs. 7941 MiB of total host memory
+common_params_fit_impl: will leave 6344 >= 1024 MiB of system memory, no changes needed
+common_fit_params: successfully fit params to free device memory
+common_fit_params: fitting params to free memory took 0.04 seconds
+llama_model_loader: loaded meta data with 25 key-value pairs and 291 tensors from C:\Users\Shruti\.ollama\models\blobs\sha256-f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = Mistral-7B-Instruct-v0.3
+llama_model_loader: - kv   2:                          llama.block_count u32              = 32
+llama_model_loader: - kv   3:                       llama.context_length u32              = 32768
+llama_model_loader: - kv   4:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 14336
+llama_model_loader: - kv   6:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   7:              llama.attention.head_count_kv u32              = 8
+llama_model_loader: - kv   8:                       llama.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                          general.file_type u32              = 15
+llama_model_loader: - kv  11:                           llama.vocab_size u32              = 32768
+llama_model_loader: - kv  12:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv  13:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  14:                         tokenizer.ggml.pre str              = default
+llama_model_loader: - kv  15:                      tokenizer.ggml.tokens arr[str,32768]   = ["<unk>", "<s>", "</s>", "[INST]", "[...
+llama_model_loader: - kv  16:                      tokenizer.ggml.scores arr[f32,32768]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  17:                  tokenizer.ggml.token_type arr[i32,32768]   = [2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, ...
+llama_model_loader: - kv  18:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  19:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  20:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  21:               tokenizer.ggml.add_bos_token bool             = true
+llama_model_loader: - kv  22:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  23:                    tokenizer.chat_template str              = {{ bos_token }}{% for message in mess...
+llama_model_loader: - kv  24:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q4_K:  193 tensors
+llama_model_loader: - type q6_K:   33 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 4.07 GiB (4.83 BPW) 
+load: 0 unused tokens
+load: printing all EOG tokens:
+load:   - 2 ('</s>')
+load: special tokens cache size = 771
+load: token to piece cache size = 0.1731 MB
+print_info: arch                  = llama
+print_info: vocab_only            = 0
+print_info: no_alloc              = 0
+print_info: n_ctx_train           = 32768
+print_info: n_embd_inp            = 4096
+print_info: n_embd                = 4096
+print_info: n_embd_out            = 4096
+print_info: n_layer               = 32
+print_info: n_layer_all           = 32
+print_info: n_head                = 32
+print_info: n_head_kv             = 8
+print_info: n_rot                 = 128
+print_info: n_swa                 = 0
+print_info: is_swa_any            = 0
+print_info: n_embd_head_k         = 128
+print_info: n_embd_head_v         = 128
+print_info: n_gqa                 = 4
+print_info: n_embd_k_gqa          = 1024
+print_info: n_embd_v_gqa          = 1024
+print_info: f_norm_eps            = 0.0e+00
+print_info: f_norm_rms_eps        = 1.0e-05
+print_info: f_clamp_kqv           = 0.0e+00
+print_info: f_max_alibi_bias      = 0.0e+00
+print_info: f_logit_scale         = 0.0e+00
+print_info: f_attn_scale          = 0.0e+00
+print_info: f_attn_value_scale    = 0.0000
+print_info: n_ff                  = 14336
+print_info: n_expert              = 0
+print_info: n_expert_used         = 0
+print_info: n_expert_groups       = 0
+print_info: n_group_used          = 0
+print_info: causal attn           = 1
+print_info: pooling type          = -1
+print_info: rope type             = 0
+print_info: rope scaling          = linear
+print_info: freq_base_train       = 1000000.0
+print_info: freq_scale_train      = 1
+print_info: n_ctx_orig_yarn       = 32768
+print_info: rope_yarn_log_mul     = 0.0000
+print_info: rope_finetuned        = unknown
+print_info: model type            = 7B
+print_info: model params          = 7.25 B
+print_info: general.name          = Mistral-7B-Instruct-v0.3
+print_info: vocab type            = SPM
+print_info: n_vocab               = 32768
+print_info: n_merges              = 0
+print_info: BOS token             = 1 '<s>'
+print_info: EOS token             = 2 '</s>'
+print_info: UNK token             = 0 '<unk>'
+print_info: LF token              = 781 '<0x0A>'
+print_info: EOG token             = 2 '</s>'
+print_info: max token length      = 48
+load_tensors: loading model tensors, this can take a while... (mmap = false, direct_io = false)
+load_tensors:          CPU model buffer size =   965.52 MiB
+load_tensors:   CPU_REPACK model buffer size =  3204.00 MiB
+time=2026-07-29T12:32:24.930+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+time=2026-07-29T12:32:34.863+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server not responding"
+time=2026-07-29T12:32:38.808+05:30 level=INFO source=llama_server.go:1303 msg="waiting for llama-server to become available" status="llm server loading model"
+cmn  common_init_: added </s> logit bias = -inf
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 4096
+llama_context: n_ctx_seq     = 4096
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = auto
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context: n_rs_seq      = 0
+llama_context: n_outputs_max = 1
+llama_context: n_ctx_seq (4096) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+llama_context:        CPU  output buffer size =     0.13 MiB
+llama_kv_cache:        CPU KV buffer size =   512.00 MiB
+llama_kv_cache: size =  512.00 MiB (  4096 cells,  32 layers,  1/1 seqs), K (f16):  256.00 MiB, V (f16):  256.00 MiB
+llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 128
+llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 128
+sched_reserve: reserving ...
+sched_reserve: Flash Attention was auto, set to enabled
+sched_reserve: resolving fused Gated Delta Net support:
+sched_reserve: fused Gated Delta Net (autoregressive) enabled
+sched_reserve: fused Gated Delta Net (chunked) enabled
+sched_reserve:        CPU compute buffer size =   120.01 MiB
+sched_reserve: graph nodes  = 998
+sched_reserve: graph splits = 1
+sched_reserve: reserve took 16.90 ms, sched copies = 1
+cmn  common_init_: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+srv    load_model: initializing, n_slots = 1, n_ctx_slot = 4096, kv_unified = 'false'
+spec common_specu: no implementations specified for speculative decoding
+slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096
+srv    load_model: prompt cache is enabled, size limit: 8192 MiB
+srv    load_model: use `--cache-ram 0` to disable the prompt cache
+srv    load_model: for more info see https://github.com/ggml-org/llama.cpp/pull/16391
+srv    load_model: context checkpoints enabled, max = 32, min spacing = 8192
+srv          init: idle slots will be saved to prompt cache upon starting a new task
+srv          init: init: chat template, example_format: '<|im_start|>system
+You are a helpful assistant<|im_end|>
+<|im_start|>user
+Hello<|im_end|>
+<|im_start|>assistant
+Hi there<|im_end|>
+<|im_start|>user
+How are you?<|im_end|>
+<|im_start|>assistant
+'
+srv          init: init: chat template, thinking = 0
+srv  llama_server: model loaded
+srv  llama_server: listening on http://127.0.0.1:50139
+srv  update_slots: all slots are idle
+time=2026-07-29T12:32:58.366+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 33.69 seconds"
+time=2026-07-29T12:32:58.573+05:30 level=INFO source=images.go:373 msg="template selection" model=registry.ollama.ai/library/mistral:latest selected=go_template renderer="" parser="" go_template="[completion tools]" chat_template=[completion] harmony=null renderer_parser=null
+time=2026-07-29T12:32:58.576+05:30 level=INFO source=sched.go:739 msg="loaded runners" count=1
+time=2026-07-29T12:32:58.578+05:30 level=INFO source=llama_server.go:1248 msg="waiting for llama-server to start responding"
+time=2026-07-29T12:32:58.582+05:30 level=INFO source=llama_server.go:1315 msg="llama-server started in 33.91 seconds"
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+srv  get_availabl: updating prompt cache
+srv          load:  - looking for better prompt, base f_keep = -1.000, sim = 0.000
+srv        update:  - cache state: 0 prompts, 0.000 MiB (limits: 8192.000 MiB, 4096 tokens, 8589934592 est)
+srv  get_availabl: prompt cache update took 0.04 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 5
+slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)
+srv  stream_sessi: conv_id= (empty=1)
+slot init_sampler: id  0 | task 0 | init sampler, took 0.25 ms, tokens: text = 5, total = 5
+[GIN] 2026/07/29 - 12:35:15 | 200 |      5.3823ms |       127.0.0.1 | HEAD     "/"
+[GIN] 2026/07/29 - 12:35:15 | 200 |     63.0927ms |       127.0.0.1 | POST     "/api/show"
+slot print_timing: id  0 | task 0 | n_decoded =    100, tg =   0.61 t/s, tg_3s =   0.61 t/s
+slot print_timing: id  0 | task 0 | n_decoded =    105, tg =   0.62 t/s, tg_3s =   0.99 t/s
+slot print_timing: id  0 | task 0 | n_decoded =    114, tg =   0.66 t/s, tg_3s =   2.73 t/s
+slot print_timing: id  0 | task 0 | n_decoded =    126, tg =   0.72 t/s, tg_3s =   3.52 t/s
+slot print_timing: id  0 | task 0 | n_decoded =    134, tg =   0.75 t/s, tg_3s =   2.65 t/s
+slot print_timing: id  0 | task 0 | prompt eval time =    5450.55 ms /     5 tokens ( 1090.11 ms per token,     0.92 tokens per second)
+slot print_timing: id  0 | task 0 |        eval time =  181757.05 ms /   141 tokens ( 1289.06 ms per token,     0.78 tokens per second)
+slot print_timing: id  0 | task 0 |       total time =  187207.59 ms /   146 tokens
+slot print_timing: id  0 | task 0 |    graphs reused =        140
+slot      release: id  0 | task 0 | stop processing: n_tokens = 145, truncated = 0
+srv  update_slots: all slots are idle
+[GIN] 2026/07/29 - 12:36:06 | 200 |         3m42s |       127.0.0.1 | POST     "/api/generate"
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, sim_best = 0.375 (> 0.100 thold), f_keep = 0.021
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 145, total state size = 18.127 MiB (draft: 0.000 MiB)
+srv          load:  - looking for better prompt, base f_keep = 0.021, sim = 0.375
+srv        update:  - cache state: 1 prompts, 18.127 MiB (limits: 8192.000 MiB, 4096 tokens, 65527 est)
+srv        update:    - prompt 000001EFDAA96BD0:     145 tokens, checkpoints:  0,    18.127 MiB
+srv  get_availabl: prompt cache update took 48.68 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.100, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 4096
+	top_k = 40, top_p = 0.900, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.800
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 142 | processing task, is_child = 0
+slot   operator(): id  0 | task 142 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 8
+slot   operator(): id  0 | task 142 | cached n_tokens = 3, memory_seq_rm [3, end)
+srv  stream_sessi: conv_id= (empty=1)
+slot init_sampler: id  0 | task 142 | init sampler, took 0.26 ms, tokens: text = 8, total = 8

@@ -1,0 +1,489 @@
+/* GovernmentSchemes.css - Matching Crops Page Design */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.government-schemes-page {
+  margin-top: 35px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);
+  padding: 60px 0;
+}
+
+/* ========== HERO SECTION ========== */
+.schemes-hero-section {
+  background: linear-gradient(135deg, #2d5016 0%, #1a3d0a 100%);
+  color: white;
+  padding: 65px 40px;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.schemes-hero-section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+  letter-spacing: -1px;
+}
+
+.schemes-hero-section p {
+  font-size: 18px;
+  opacity: 0.95;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* ========== WRAPPER ========== */
+.schemes-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 40px;
+}
+
+/* ========== SEARCH BOX ========== */
+/* SEARCH SECTION */
+.schemes-search-section {
+  max-width: 1000px;
+  margin: -30px auto 40px;
+  padding: 0 40px;
+}
+
+.schemes-search-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.schemes-search-input {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.schemes-search-input:focus {
+  box-shadow: 0 8px 25px rgba(45, 80, 22, 0.3);
+  transform: translateY(-2px);
+}
+
+.schemes-search-btn,
+.schemes-filter-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.schemes-search-btn {
+  background: #2d5016;
+  color: white;
+}
+
+.schemes-search-btn:hover:not(:disabled) {
+  background: #1a3d0a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(45, 80, 22, 0.3);
+}
+
+.schemes-filter-btn {
+  background: #f4a460;
+  color: white;
+}
+
+.schemes-filter-btn:hover:not(:disabled) {
+  background: #ff9800;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 152, 0, 0.3);
+}
+
+.schemes-search-btn:disabled,
+.schemes-filter-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* ========== FILTERS ========== */
+.schemes-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  padding: 10px 22px;
+  background: white;
+  border: 2px solid #2d5016;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #2d5016;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  background: #f5f5f0;
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: #2d5016;
+  color: white;
+  border-color: #2d5016;
+}
+
+@media (max-width: 1024px) {
+  .schemes-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 30px 30px;
+  }
+  
+  .schemes-search-section {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .schemes-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 25px 20px;
+  }
+  
+  .schemes-search-section {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schemes-cards-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px 15px;
+  }
+  
+  .schemes-search-section {
+    padding: 0 15px;
+  }
+}
+
+/* ========== SCHEMES CARDS ========== */
+.schemes-cards-container {
+ max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.scheme-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid #2d5016;
+}
+
+.scheme-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+.scheme-image-container {
+  width: 100%;
+  height: 180px;
+  background: #f9f9f7;
+  overflow: hidden;
+}
+
+.scheme-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.scheme-icon-section {
+  padding: 20px;
+  background: linear-gradient(135deg, #f9f9f7 0%, #fffbf5 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.scheme-emoji {
+  font-size: 48px;
+}
+
+.scheme-info {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.scheme-info h3 {
+  font-size: 16px;
+  color: #2d5016;
+  font-weight: 800;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.scheme-category {
+  font-size: 12px;
+  color: #888;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.scheme-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.scheme-meta {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.meta-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.scheme-info h3 {
+  font-size: 16px;
+  color: #2d5016;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.scheme-desc {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.meta-value {
+  font-size: 13px;
+  color: #333;
+  font-weight: 600;
+}
+
+.scheme-btn {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: auto;
+  background: linear-gradient(135deg, #2d5016 0%, #1a3d0a 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scheme-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(45, 80, 22, 0.25);
+}
+
+.no-schemes {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+  font-size: 16px;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media (max-width: 1024px) {
+  .schemes-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .schemes-wrapper {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .schemes-hero-section {
+    padding: 40px 20px;
+    min-height: 250px;
+  }
+
+  .schemes-hero-section h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .schemes-hero-section p {
+    font-size: 14px;
+  }
+
+  .schemes-wrapper {
+    padding: 30px 20px;
+  }
+
+  .schemes-search {
+    padding: 12px 14px 12px 45px;
+    font-size: 14px;
+  }
+
+  .schemes-cards-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+  }
+
+  .schemes-filters {
+    gap: 10px;
+  }
+
+  .filter-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .scheme-item {
+    border-top: 3px solid #2d5016;
+  }
+
+  .scheme-emoji {
+    font-size: 40px;
+  }
+
+  .scheme-info h3 {
+    font-size: 15px;
+  }
+
+  .scheme-desc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schemes-hero-section {
+    padding: 30px 15px;
+    min-height: 200px;
+  }
+
+  .schemes-hero-section h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .schemes-hero-section p {
+    font-size: 12px;
+  }
+
+  .schemes-wrapper {
+    padding: 20px 12px;
+  }
+
+  .search-container {
+    margin-bottom: 20px;
+  }
+
+  .schemes-search {
+    padding: 11px 12px 11px 40px;
+    font-size: 13px;
+  }
+
+  .search-icon {
+    font-size: 16px;
+    left: 12px;
+  }
+
+  .schemes-cards-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .schemes-filters {
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .filter-btn {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .scheme-item {
+    border-top: 3px solid #2d5016;
+  }
+
+  .scheme-icon-section {
+    padding: 15px;
+  }
+
+  .scheme-emoji {
+    font-size: 36px;
+  }
+
+  .scheme-info {
+    padding: 15px;
+  }
+
+  .scheme-info h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .scheme-category {
+    font-size: 11px;
+    margin-bottom: 8px;
+  }
+
+  .scheme-desc {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .meta-value {
+    font-size: 12px;
+  }
+
+  .scheme-btn {
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+}

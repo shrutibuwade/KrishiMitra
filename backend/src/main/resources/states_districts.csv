@@ -1,0 +1,760 @@
+state_name,state_code,region,district_name,district_code
+Andhra Pradesh,AP,Southern,Anantapur,AN
+Andhra Pradesh,AP,Southern,Chittoor,CT
+Andhra Pradesh,AP,Southern,East Godavari,EG
+Andhra Pradesh,AP,Southern,Guntur,GU
+Andhra Pradesh,AP,Southern,Krishna,KR
+Andhra Pradesh,AP,Southern,Kurnool,KN
+Andhra Pradesh,AP,Southern,Nellore,NE
+Andhra Pradesh,AP,Southern,Prakasam,PK
+Andhra Pradesh,AP,Southern,Srikakulam,SR
+Andhra Pradesh,AP,Southern,Visakhapatnam,VZ
+Andhra Pradesh,AP,Southern,Vizianagaram,VN
+Andhra Pradesh,AP,Southern,West Godavari,WG
+Arunachal Pradesh,AR,North-Eastern,Anjaw,AJ
+Arunachal Pradesh,AR,North-Eastern,Changlang,CL
+Arunachal Pradesh,AR,North-Eastern,Dibang Valley,DV
+Arunachal Pradesh,AR,North-Eastern,East Kameng,EK
+Arunachal Pradesh,AR,North-Eastern,East Siang,ES
+Arunachal Pradesh,AR,North-Eastern,Kamle,KM
+Arunachal Pradesh,AR,North-Eastern,Kra Daadi,KD
+Arunachal Pradesh,AR,North-Eastern,Kurung Kumey,KK
+Arunachal Pradesh,AR,North-Eastern,Lohit,LH
+Arunachal Pradesh,AR,North-Eastern,Longding,LD
+Arunachal Pradesh,AR,North-Eastern,Lower Dibang Valley,LDV
+Arunachal Pradesh,AR,North-Eastern,Lower Siang,LS
+Arunachal Pradesh,AR,North-Eastern,Lower Subansiri,LSU
+Arunachal Pradesh,AR,North-Eastern,Namsai,NM
+Arunachal Pradesh,AR,North-Eastern,Papum Pare,PP
+Arunachal Pradesh,AR,North-Eastern,Tawang,TW
+Arunachal Pradesh,AR,North-Eastern,Tirap,TR
+Arunachal Pradesh,AR,North-Eastern,Upper Dibang Valley,UDV
+Arunachal Pradesh,AR,North-Eastern,Upper Siang,US
+Arunachal Pradesh,AR,North-Eastern,Upper Subansiri,USU
+Arunachal Pradesh,AR,North-Eastern,West Kameng,WK
+Arunachal Pradesh,AR,North-Eastern,West Siang,WS
+Assam,AS,North-Eastern,Baksa,BK
+Assam,AS,North-Eastern,Barpeta,BP
+Assam,AS,North-Eastern,Biswanath,BW
+Assam,AS,North-Eastern,Bongaigaon,BG
+Assam,AS,North-Eastern,Cachar,CC
+Assam,AS,North-Eastern,Charaideo,CD
+Assam,AS,North-Eastern,Chirang,CH
+Assam,AS,North-Eastern,Darrang,DR
+Assam,AS,North-Eastern,Dhemaji,DH
+Assam,AS,North-Eastern,Dima Hasao,DHS
+Assam,AS,North-Eastern,Goalpara,GL
+Assam,AS,North-Eastern,Golaghat,GG
+Assam,AS,North-Eastern,Hailakandi,HK
+Assam,AS,North-Eastern,Hojai,HJ
+Assam,AS,North-Eastern,Jorhat,JR
+Assam,AS,North-Eastern,Kamrup,KM
+Assam,AS,North-Eastern,Kamrup Metropolitan,KMM
+Assam,AS,North-Eastern,Karbi Anglong,KA
+Assam,AS,North-Eastern,Karimganj,KG
+Assam,AS,North-Eastern,Kokrajhar,KK
+Assam,AS,North-Eastern,Lakhimpur,LK
+Assam,AS,North-Eastern,Majuli,MJ
+Assam,AS,North-Eastern,Morigaon,MG
+Assam,AS,North-Eastern,Nagaon,NG
+Assam,AS,North-Eastern,Nalbari,NB
+Assam,AS,North-Eastern,Sivasagar,SV
+Assam,AS,North-Eastern,Sonitpur,ST
+Assam,AS,North-Eastern,South Salmara-Mankachar,SM
+Assam,AS,North-Eastern,Tinsukia,TN
+Bihar,BR,Eastern,Araria,AR
+Bihar,BR,Eastern,Arwal,AW
+Bihar,BR,Eastern,Aurangabad,AU
+Bihar,BR,Eastern,Banka,BK
+Bihar,BR,Eastern,Begusarai,BG
+Bihar,BR,Eastern,Bhagalpur,BH
+Bihar,BR,Eastern,Bhojpur,BJ
+Bihar,BR,Eastern,Buxar,BX
+Bihar,BR,Eastern,Darbhanga,DB
+Bihar,BR,Eastern,East Champaran,EC
+Bihar,BR,Eastern,Gaya,GY
+Bihar,BR,Eastern,Gopalganj,GP
+Bihar,BR,Eastern,Jamui,JM
+Bihar,BR,Eastern,Jehanabad,JH
+Bihar,BR,Eastern,Jitpur Sharif,JS
+Bihar,BR,Eastern,Kaimur,KM
+Bihar,BR,Eastern,Katihar,KT
+Bihar,BR,Eastern,Khagaria,KH
+Bihar,BR,Eastern,Kishanganj,KG
+Bihar,BR,Eastern,Lakhisarai,LK
+Bihar,BR,Eastern,Madhepura,MD
+Bihar,BR,Eastern,Madhubani,MH
+Bihar,BR,Eastern,Munger,MN
+Bihar,BR,Eastern,Muzaffarpur,MZ
+Bihar,BR,Eastern,Nalanda,NL
+Bihar,BR,Eastern,Nawada,NW
+Bihar,BR,Eastern,Pashchim Champaran,WC
+Bihar,BR,Eastern,Patna,PT
+Bihar,BR,Eastern,Purnia,PN
+Bihar,BR,Eastern,Rohtas,RH
+Bihar,BR,Eastern,Saharsa,SH
+Bihar,BR,Eastern,Samastipur,SM
+Bihar,BR,Eastern,Sheikhpura,SK
+Bihar,BR,Eastern,Sheohar,SR
+Bihar,BR,Eastern,Siwan,SW
+Bihar,BR,Eastern,Sitamarhi,ST
+Bihar,BR,Eastern,Supaul,SP
+Bihar,BR,Eastern,Vaishali,VH
+Bihar,BR,Eastern,West Champaran,WE
+Chhattisgarh,CG,Central,Balod,BL
+Chhattisgarh,CG,Central,Balrampur,BR
+Chhattisgarh,CG,Central,Bastar,BS
+Chhattisgarh,CG,Central,Bemetara,BM
+Chhattisgarh,CG,Central,Bijapur,BJ
+Chhattisgarh,CG,Central,Bilaspur,BL
+Chhattisgarh,CG,Central,Dantewada,DW
+Chhattisgarh,CG,Central,Dhamtari,DH
+Chhattisgarh,CG,Central,Durg,DG
+Chhattisgarh,CG,Central,Gariaband,GB
+Chhattisgarh,CG,Central,Janjgir-Champa,JC
+Chhattisgarh,CG,Central,Jashpur,JS
+Chhattisgarh,CG,Central,Kabirdham,KB
+Chhattisgarh,CG,Central,Kanker,KK
+Chhattisgarh,CG,Central,Kondagaon,KN
+Chhattisgarh,CG,Central,Korba,KR
+Chhattisgarh,CG,Central,Koriya,KY
+Chhattisgarh,CG,Central,Mahasamund,MH
+Chhattisgarh,CG,Central,Mungeli,MG
+Chhattisgarh,CG,Central,Narayanpur,NR
+Chhattisgarh,CG,Central,Raigarh,RG
+Chhattisgarh,CG,Central,Raipur,RP
+Chhattisgarh,CG,Central,Rajnandgaon,RJ
+Chhattisgarh,CG,Central,Sukma,SK
+Chhattisgarh,CG,Central,Surajpur,SJ
+Goa,GA,Western,North Goa,NG
+Goa,GA,Western,South Goa,SG
+Gujarat,GJ,Western,Ahmedabad,AH
+Gujarat,GJ,Western,Amreli,AM
+Gujarat,GJ,Western,Anand,AN
+Gujarat,GJ,Western,Aravalli,AR
+Gujarat,GJ,Western,Banaskantha,BK
+Gujarat,GJ,Western,Baroda,BD
+Gujarat,GJ,Western,Bharuch,BH
+Gujarat,GJ,Western,Bhavnagar,BV
+Gujarat,GJ,Western,Botad,BT
+Gujarat,GJ,Western,Chhota Udaipur,CU
+Gujarat,GJ,Western,Dahod,DH
+Gujarat,GJ,Western,Dang,DG
+Gujarat,GJ,Western,Devbhumi Dwarka,DD
+Gujarat,GJ,Western,Gandhinagar,GN
+Gujarat,GJ,Western,Gir Somnath,GS
+Gujarat,GJ,Western,Jamnagar,JM
+Gujarat,GJ,Western,Junagadh,JG
+Gujarat,GJ,Western,Kachchh,KC
+Gujarat,GJ,Western,Kheda,KH
+Gujarat,GJ,Western,Mahisagar,MH
+Gujarat,GJ,Western,Mehsana,MS
+Gujarat,GJ,Western,Morbi,MB
+Gujarat,GJ,Western,Narmada,NM
+Gujarat,GJ,Western,Navsari,NV
+Gujarat,GJ,Western,Panchmahal,PM
+Gujarat,GJ,Western,Patan,PT
+Gujarat,GJ,Western,Porbandar,PB
+Gujarat,GJ,Western,Pratapgarh,PG
+Gujarat,GJ,Western,Rajkot,RJ
+Gujarat,GJ,Western,Sabarkantha,SB
+Gujarat,GJ,Western,Surat,SU
+Gujarat,GJ,Western,Tapi,TP
+Gujarat,GJ,Western,Vadodara,VD
+Gujarat,GJ,Western,Valsad,VL
+Haryana,HR,Northern,Ambala,AM
+Haryana,HR,Northern,Bhiwani,BH
+Haryana,HR,Northern,Charkhi Dadri,CD
+Haryana,HR,Northern,Faridabad,FB
+Haryana,HR,Northern,Fatehabad,FT
+Haryana,HR,Northern,Gurgaon,GG
+Haryana,HR,Northern,Hisar,HS
+Haryana,HR,Northern,Jhajjar,JJ
+Haryana,HR,Northern,Jind,JD
+Haryana,HR,Northern,Kaithal,KT
+Haryana,HR,Northern,Karnal,KL
+Haryana,HR,Northern,Kurukshetra,KK
+Haryana,HR,Northern,Mahendragarh,MG
+Haryana,HR,Northern,Mewat,MW
+Haryana,HR,Northern,Palwal,PL
+Haryana,HR,Northern,Panchkula,PK
+Haryana,HR,Northern,Panipat,PT
+Haryana,HR,Northern,Rewari,RW
+Haryana,HR,Northern,Rohtak,RK
+Haryana,HR,Northern,Sirsa,SR
+Haryana,HR,Northern,Sonipat,SN
+Haryana,HR,Northern,Yamunanagar,YN
+Himachal Pradesh,HP,Northern,Bilaspur,BL
+Himachal Pradesh,HP,Northern,Chamba,CB
+Himachal Pradesh,HP,Northern,Hamirpur,HM
+Himachal Pradesh,HP,Northern,Kangra,KG
+Himachal Pradesh,HP,Northern,Kinnaur,KN
+Himachal Pradesh,HP,Northern,Kullu,KL
+Himachal Pradesh,HP,Northern,Lahaul and Spiti,LS
+Himachal Pradesh,HP,Northern,Mandi,MD
+Himachal Pradesh,HP,Northern,Shimla,SH
+Himachal Pradesh,HP,Northern,Sirmaur,SR
+Himachal Pradesh,HP,Northern,Solan,SL
+Himachal Pradesh,HP,Northern,Una,UN
+Jharkhand,JH,Eastern,Bokaro,BK
+Jharkhand,JH,Eastern,Chatra,CT
+Jharkhand,JH,Eastern,Deoghar,DG
+Jharkhand,JH,Eastern,Dhanbad,DH
+Jharkhand,JH,Eastern,Dumka,DM
+Jharkhand,JH,Eastern,Giridih,GR
+Jharkhand,JH,Eastern,Godda,GD
+Jharkhand,JH,Eastern,Gumla,GM
+Jharkhand,JH,Eastern,Hazaribagh,HZ
+Jharkhand,JH,Eastern,Jamtara,JM
+Jharkhand,JH,Eastern,Jamshedpur,JS
+Jharkhand,JH,Eastern,Khunti,KH
+Jharkhand,JH,Eastern,Koderma,KD
+Jharkhand,JH,Eastern,Latehar,LT
+Jharkhand,JH,Eastern,Lohardaga,LH
+Jharkhand,JH,Eastern,Pakur,PK
+Jharkhand,JH,Eastern,Palamu,PL
+Jharkhand,JH,Eastern,Pashchim Singhbhum,PS
+Jharkhand,JH,Eastern,Purbi Singhbhum,PU
+Jharkhand,JH,Eastern,Ramgarh,RG
+Jharkhand,JH,Eastern,Ranchi,RN
+Jharkhand,JH,Eastern,Sahibganj,SB
+Jharkhand,JH,Eastern,Seraikela Kharsawan,SK
+Jharkhand,JH,Eastern,Simdega,SD
+Karnataka,KA,Southern,Bagalkot,BG
+Karnataka,KA,Southern,Ballari,BL
+Karnataka,KA,Southern,Belgaum,BE
+Karnataka,KA,Southern,Bengaluru Rural,BR
+Karnataka,KA,Southern,Bengaluru Urban,BU
+Karnataka,KA,Southern,Bijapur,BJ
+Karnataka,KA,Southern,Chamarajanagar,CM
+Karnataka,KA,Southern,Chikkaballapur,CB
+Karnataka,KA,Southern,Chikkamagaluru,CK
+Karnataka,KA,Southern,Chitradurga,CT
+Karnataka,KA,Southern,Dakshina Kannada,DK
+Karnataka,KA,Southern,Davangere,DV
+Karnataka,KA,Southern,Dharwad,DR
+Karnataka,KA,Southern,Gadag,GD
+Karnataka,KA,Southern,Gulbarga,GL
+Karnataka,KA,Southern,Hassan,HS
+Karnataka,KA,Southern,Haveri,HV
+Karnataka,KA,Southern,Kalaburagi,KB
+Karnataka,KA,Southern,Kodagu,KD
+Karnataka,KA,Southern,Kolar,KL
+Karnataka,KA,Southern,Koppal,KP
+Karnataka,KA,Southern,Mandya,MD
+Karnataka,KA,Southern,Mysore,MY
+Karnataka,KA,Southern,Raichur,RC
+Karnataka,KA,Southern,Ramanagara,RM
+Karnataka,KA,Southern,Shivamogga,SH
+Karnataka,KA,Southern,Tumkur,TK
+Karnataka,KA,Southern,Udupi,UD
+Karnataka,KA,Southern,Uttara Kannada,UK
+Karnataka,KA,Southern,Yadgir,YD
+Kerala,KL,Southern,Alappuzha,AL
+Kerala,KL,Southern,Ernakulam,ER
+Kerala,KL,Southern,Idukki,ID
+Kerala,KL,Southern,Kannur,KN
+Kerala,KL,Southern,Kasaragod,KS
+Kerala,KL,Southern,Kottayam,KT
+Kerala,KL,Southern,Kozhikode,KZ
+Kerala,KL,Southern,Malappuram,ML
+Kerala,KL,Southern,Palakkad,PL
+Kerala,KL,Southern,Pathanamthitta,PT
+Kerala,KL,Southern,Thiruvananthapuram,TH
+Kerala,KL,Southern,Thrissur,TR
+Kerala,KL,Southern,Wayanad,WY
+Madhya Pradesh,MP,Central,Agar Malwa,AG
+Madhya Pradesh,MP,Central,Alirajpur,AL
+Madhya Pradesh,MP,Central,Anuppur,AN
+Madhya Pradesh,MP,Central,Ashoknagar,AS
+Madhya Pradesh,MP,Central,Balaghat,BG
+Madhya Pradesh,MP,Central,Barwani,BR
+Madhya Pradesh,MP,Central,Betul,BE
+Madhya Pradesh,MP,Central,Bhopal,BP
+Madhya Pradesh,MP,Central,Burhanpur,BH
+Madhya Pradesh,MP,Central,Chhatarpur,CH
+Madhya Pradesh,MP,Central,Chhindwara,CW
+Madhya Pradesh,MP,Central,Damoh,DH
+Madhya Pradesh,MP,Central,Datia,DT
+Madhya Pradesh,MP,Central,Dindori,DD
+Madhya Pradesh,MP,Central,Dhar,DR
+Madhya Pradesh,MP,Central,Guna,GN
+Madhya Pradesh,MP,Central,Gwalior,GW
+Madhya Pradesh,MP,Central,Harda,HR
+Madhya Pradesh,MP,Central,Hoshangabad,HS
+Madhya Pradesh,MP,Central,Indore,ID
+Madhya Pradesh,MP,Central,Jabalpur,JB
+Madhya Pradesh,MP,Central,Jhabua,JH
+Madhya Pradesh,MP,Central,Katni,KT
+Madhya Pradesh,MP,Central,Khandwa,KH
+Madhya Pradesh,MP,Central,Khargone,KG
+Madhya Pradesh,MP,Central,Mandsaur,MS
+Madhya Pradesh,MP,Central,Mandla,ML
+Madhya Pradesh,MP,Central,Morena,MR
+Madhya Pradesh,MP,Central,Narsinghpur,NP
+Madhya Pradesh,MP,Central,Neemuch,NM
+Madhya Pradesh,MP,Central,Niwari,NW
+Madhya Pradesh,MP,Central,Panna,PN
+Madhya Pradesh,MP,Central,Raisen,RS
+Madhya Pradesh,MP,Central,Rajgarh,RG
+Madhya Pradesh,MP,Central,Ratlam,RL
+Madhya Pradesh,MP,Central,Rewa,RW
+Madhya Pradesh,MP,Central,Sagar,SG
+Madhya Pradesh,MP,Central,Satna,SN
+Madhya Pradesh,MP,Central,Sehore,SR
+Madhya Pradesh,MP,Central,Seoni,SO
+Madhya Pradesh,MP,Central,Shahdol,SH
+Madhya Pradesh,MP,Central,Shajapur,SJ
+Madhya Pradesh,MP,Central,Sheopur,SP
+Madhya Pradesh,MP,Central,Shivpuri,SV
+Madhya Pradesh,MP,Central,Sidhi,SD
+Madhya Pradesh,MP,Central,Singrauli,SI
+Madhya Pradesh,MP,Central,Tikamgarh,TK
+Madhya Pradesh,MP,Central,Ujjain,UJ
+Madhya Pradesh,MP,Central,Umaria,UM
+Madhya Pradesh,MP,Central,Vidisha,VD
+Maharashtra,MH,Western,Ahmednagar,AH
+Maharashtra,MH,Western,Akola,AK
+Maharashtra,MH,Western,Amravati,AM
+Maharashtra,MH,Western,Aurangabad,AU
+Maharashtra,MH,Western,Beed,BE
+Maharashtra,MH,Western,Bhandara,BH
+Maharashtra,MH,Western,Buldhana,BL
+Maharashtra,MH,Western,Chandrapur,CH
+Maharashtra,MH,Western,Dhule,DH
+Maharashtra,MH,Western,Gadchiroli,GD
+Maharashtra,MH,Western,Gondia,GO
+Maharashtra,MH,Western,Hingoli,HI
+Maharashtra,MH,Western,Jalgaon,JG
+Maharashtra,MH,Western,Jalna,JL
+Maharashtra,MH,Western,Kolhapur,KL
+Maharashtra,MH,Western,Latur,LT
+Maharashtra,MH,Western,Mahbubnagar,MH
+Maharashtra,MH,Western,Mumbai,MB
+Maharashtra,MH,Western,Nagpur,NG
+Maharashtra,MH,Western,Nanded,ND
+Maharashtra,MH,Western,Nandurbar,NB
+Maharashtra,MH,Western,Nashik,NS
+Maharashtra,MH,Western,Osmanabaad,OS
+Maharashtra,MH,Western,Parbhani,PR
+Maharashtra,MH,Western,Pune,PN
+Maharashtra,MH,Western,Raigad,RG
+Maharashtra,MH,Western,Ratnagiri,RT
+Maharashtra,MH,Western,Sangli,SN
+Maharashtra,MH,Western,Satara,ST
+Maharashtra,MH,Western,Sindhudurg,SD
+Maharashtra,MH,Western,Solapur,SO
+Maharashtra,MH,Western,Thane,TH
+Maharashtra,MH,Western,Wardha,WD
+Maharashtra,MH,Western,Washim,WS
+Maharashtra,MH,Western,Yavatmal,YV
+Manipur,MN,North-Eastern,Bishnupur,BI
+Manipur,MN,North-Eastern,Chandel,CH
+Manipur,MN,North-Eastern,Churachandpur,CU
+Manipur,MN,North-Eastern,Imphal East,IE
+Manipur,MN,North-Eastern,Imphal West,IW
+Manipur,MN,North-Eastern,Jiribam,JI
+Manipur,MN,North-Eastern,Kakching,KK
+Manipur,MN,North-Eastern,Kamjong,KJ
+Manipur,MN,North-Eastern,Kangpokpi,KP
+Manipur,MN,North-Eastern,Noney,NO
+Manipur,MN,North-Eastern,Pherzawl,PH
+Manipur,MN,North-Eastern,Senapati,SE
+Manipur,MN,North-Eastern,Tamenglong,TA
+Manipur,MN,North-Eastern,Tengnoupal,TE
+Manipur,MN,North-Eastern,Ukhrul,UK
+Meghalaya,ML,North-Eastern,East Garo Hills,EG
+Meghalaya,ML,North-Eastern,East Khasi Hills,EK
+Meghalaya,ML,North-Eastern,North Garo Hills,NG
+Meghalaya,ML,North-Eastern,Ri-Bhoi,RB
+Meghalaya,ML,North-Eastern,South Garo Hills,SG
+Meghalaya,ML,North-Eastern,West Garo Hills,WG
+Meghalaya,ML,North-Eastern,West Khasi Hills,WK
+Mizoram,MZ,North-Eastern,Aizawl,AZ
+Mizoram,MZ,North-Eastern,Champhai,CH
+Mizoram,MZ,North-Eastern,Kolasib,KL
+Mizoram,MZ,North-Eastern,Lawngtlai,LW
+Mizoram,MZ,North-Eastern,Lunglei,LN
+Mizoram,MZ,North-Eastern,Mamit,MM
+Mizoram,MZ,North-Eastern,Saiha,SA
+Mizoram,MZ,North-Eastern,Serchhip,SR
+Nagaland,NL,North-Eastern,Chokicho,CK
+Nagaland,NL,North-Eastern,Dimapur,DI
+Nagaland,NL,North-Eastern,Kiphire,KI
+Nagaland,NL,North-Eastern,Kohima,KO
+Nagaland,NL,North-Eastern,Longleng,LO
+Nagaland,NL,North-Eastern,Mokokchung,MO
+Nagaland,NL,North-Eastern,Mon,MN
+Nagaland,NL,North-Eastern,Noklak,NK
+Nagaland,NL,North-Eastern,Peren,PE
+Nagaland,NL,North-Eastern,Phek,PH
+Nagaland,NL,North-Eastern,Tuensang,TU
+Nagaland,NL,North-Eastern,Wokha,WO
+Nagaland,NL,North-Eastern,Zunheboto,ZU
+Odisha,OD,Eastern,Angul,AN
+Odisha,OD,Eastern,Balangir,BL
+Odisha,OD,Eastern,Balasore,BS
+Odisha,OD,Eastern,Bargarh,BR
+Odisha,OD,Eastern,Bhadrak,BH
+Odisha,OD,Eastern,Boudh,BO
+Odisha,OD,Eastern,Cuttack,CT
+Odisha,OD,Eastern,Debagarh,DG
+Odisha,OD,Eastern,Dhenkanal,DH
+Odisha,OD,Eastern,Gajapati,GA
+Odisha,OD,Eastern,Ganjam,GJ
+Odisha,OD,Eastern,Jagatsinghpur,JS
+Odisha,OD,Eastern,Jajpur,JP
+Odisha,OD,Eastern,Jharsuguda,JH
+Odisha,OD,Eastern,Kalahandi,KL
+Odisha,OD,Eastern,Kandhamal,KD
+Odisha,OD,Eastern,Kendrapara,KE
+Odisha,OD,Eastern,Kendujhar,KJ
+Odisha,OD,Eastern,Khordha,KH
+Odisha,OD,Eastern,Koraput,KO
+Odisha,OD,Eastern,Malkangiri,ML
+Odisha,OD,Eastern,Mayurbhanj,MY
+Odisha,OD,Eastern,Nabarangpur,NB
+Odisha,OD,Eastern,Nayagarh,NG
+Odisha,OD,Eastern,Nuapada,NU
+Odisha,OD,Eastern,Puri,PU
+Odisha,OD,Eastern,Rayagada,RA
+Odisha,OD,Eastern,Sambalpur,SA
+Odisha,OD,Eastern,Subarnapur,SU
+Odisha,OD,Eastern,Sundargarh,SG
+Punjab,PB,Northern,Amritsar,AM
+Punjab,PB,Northern,Barnala,BL
+Punjab,PB,Northern,Bathinda,BT
+Punjab,PB,Northern,Faridkot,FK
+Punjab,PB,Northern,Fatehgarh Sahib,FGS
+Punjab,PB,Northern,Ferozepur,FP
+Punjab,PB,Northern,Gurdaspur,GD
+Punjab,PB,Northern,Hoshiarpur,HP
+Punjab,PB,Northern,Jalandhar,JD
+Punjab,PB,Northern,Kapurthala,KP
+Punjab,PB,Northern,Ludhiana,LD
+Punjab,PB,Northern,Mansa,MS
+Punjab,PB,Northern,Moga,MG
+Punjab,PB,Northern,Muktsar,MK
+Punjab,PB,Northern,Pathankot,PT
+Punjab,PB,Northern,Patiala,PA
+Punjab,PB,Northern,Sangrur,SG
+Punjab,PB,Northern,Tarn Taran,TT
+Rajasthan,RJ,Western,Ajmer,AJ
+Rajasthan,RJ,Western,Alwar,AL
+Rajasthan,RJ,Western,Banswara,BA
+Rajasthan,RJ,Western,Baran,BR
+Rajasthan,RJ,Western,Barmer,BM
+Rajasthan,RJ,Western,Bharatpur,BP
+Rajasthan,RJ,Western,Bhilwara,BH
+Rajasthan,RJ,Western,Bikaner,BK
+Rajasthan,RJ,Western,Bundi,BU
+Rajasthan,RJ,Western,Chittorgarh,CG
+Rajasthan,RJ,Western,Churu,CH
+Rajasthan,RJ,Western,Dausa,DA
+Rajasthan,RJ,Western,Dholpur,DH
+Rajasthan,RJ,Western,Dungarpur,DG
+Rajasthan,RJ,Western,Ganganagar,GA
+Rajasthan,RJ,Western,Hanumangarh,HA
+Rajasthan,RJ,Western,Jaipur,JA
+Rajasthan,RJ,Western,Jaisalmer,JS
+Rajasthan,RJ,Western,Jalore,JL
+Rajasthan,RJ,Western,Jalor,JO
+Rajasthan,RJ,Western,Jhalawar,JW
+Rajasthan,RJ,Western,Jhalrapatan,JP
+Rajasthan,RJ,Western,Jhunjhunu,JH
+Rajasthan,RJ,Western,Jodhpur,JO
+Rajasthan,RJ,Western,Karauli,KA
+Rajasthan,RJ,Western,Kota,KO
+Rajasthan,RJ,Western,Nagaur,NA
+Rajasthan,RJ,Western,Pali,PA
+Rajasthan,RJ,Western,Phalodi,PH
+Rajasthan,RJ,Western,Pratapgarh,PG
+Rajasthan,RJ,Western,Pushkar,PU
+Rajasthan,RJ,Western,Rajsamand,RS
+Rajasthan,RJ,Western,Sikar,SI
+Rajasthan,RJ,Western,Sirohi,SR
+Rajasthan,RJ,Western,Tonk,TO
+Rajasthan,RJ,Western,Udaipur,UD
+Sikkim,SK,North-Eastern,East Sikkim,ES
+Sikkim,SK,North-Eastern,North Sikkim,NS
+Sikkim,SK,North-Eastern,South Sikkim,SS
+Sikkim,SK,North-Eastern,West Sikkim,WS
+Tamil Nadu,TN,Southern,Ariyalur,AR
+Tamil Nadu,TN,Southern,Chengalpattu,CG
+Tamil Nadu,TN,Southern,Chidambaram,CH
+Tamil Nadu,TN,Southern,Coimbatore,CB
+Tamil Nadu,TN,Southern,Cuddalore,CU
+Tamil Nadu,TN,Southern,Dharmapuri,DH
+Tamil Nadu,TN,Southern,Dindigul,DI
+Tamil Nadu,TN,Southern,Erode,ER
+Tamil Nadu,TN,Southern,Kallakurichi,KK
+Tamil Nadu,TN,Southern,Kanchipuram,KA
+Tamil Nadu,TN,Southern,Kanya Kumari,KY
+Tamil Nadu,TN,Southern,Karur,KR
+Tamil Nadu,TN,Southern,Krishnagiri,KG
+Tamil Nadu,TN,Southern,Madurai,MD
+Tamil Nadu,TN,Southern,Mayiladuthurai,MY
+Tamil Nadu,TN,Southern,Nagapattinam,NG
+Tamil Nadu,TN,Southern,Namakkal,NM
+Tamil Nadu,TN,Southern,Nilgiris,NL
+Tamil Nadu,TN,Southern,Perambalur,PR
+Tamil Nadu,TN,Southern,Pudukkottai,PU
+Tamil Nadu,TN,Southern,Ramanathapuram,RA
+Tamil Nadu,TN,Southern,Ranipet,RN
+Tamil Nadu,TN,Southern,Salem,SA
+Tamil Nadu,TN,Southern,Sivagangai,SG
+Tamil Nadu,TN,Southern,Tenkasi,TE
+Tamil Nadu,TN,Southern,Thanjavur,TH
+Tamil Nadu,TN,Southern,Theni,TN
+Tamil Nadu,TN,Southern,Thirupathur,TP
+Tamil Nadu,TN,Southern,Thiruvannamalai,TV
+Tamil Nadu,TN,Southern,Thiruvarur,TR
+Tamil Nadu,TN,Southern,Tiruppur,TI
+Tamil Nadu,TN,Southern,Tiruvannamalai,TV
+Tamil Nadu,TN,Southern,Trichur,TC
+Tamil Nadu,TN,Southern,Trichy,TR
+Tamil Nadu,TN,Southern,Tuticorin,TU
+Tamil Nadu,TN,Southern,Vellore,VE
+Tamil Nadu,TN,Southern,Viluppuram,VI
+Tamil Nadu,TN,Southern,Virudunagar,VI
+Telangana,TG,Southern,Adilabad,AD
+Telangana,TG,Southern,Bhadradeadri,BH
+Telangana,TG,Southern,Hanamkonda,HA
+Telangana,TG,Southern,Hyderabad,HY
+Telangana,TG,Southern,Jangaon,JA
+Telangana,TG,Southern,Kamareddy,KA
+Telangana,TG,Southern,Karimnagar,KR
+Telangana,TG,Southern,Khammam,KH
+Telangana,TG,Southern,Mahabubnagar,MB
+Telangana,TG,Southern,Medak,MD
+Telangana,TG,Southern,Medchal,MC
+Telangana,TG,Southern,Nirmal,NI
+Telangana,TG,Southern,Nizamabad,NZ
+Telangana,TG,Southern,Peddapalli,PE
+Telangana,TG,Southern,Rajanna Sircilla,RS
+Telangana,TG,Southern,Ranga Reddy,RR
+Telangana,TG,Southern,Sangareddy,SA
+Telangana,TG,Southern,Siddipet,SI
+Telangana,TG,Southern,Suryapet,SU
+Telangana,TG,Southern,Vikarabad,VI
+Telangana,TG,Southern,Warangal,WA
+Telangana,TG,Southern,Yadadri Bhuvanagiri,YB
+Tripura,TR,North-Eastern,Dhalai,DH
+Tripura,TR,North-Eastern,Gomati,GM
+Tripura,TR,North-Eastern,Khowai,KH
+Tripura,TR,North-Eastern,North Tripura,NT
+Tripura,TR,North-Eastern,Sepahijala,SE
+Tripura,TR,North-Eastern,South Tripura,ST
+Tripura,TR,North-Eastern,Unakoti,UN
+Tripura,TR,North-Eastern,West Tripura,WT
+Uttar Pradesh,UP,Northern,Agra,AG
+Uttar Pradesh,UP,Northern,Aligarh,AL
+Uttar Pradesh,UP,Northern,Allahabad,AA
+Uttar Pradesh,UP,Northern,Ambedkar Nagar,AN
+Uttar Pradesh,UP,Northern,Amethi,AM
+Uttar Pradesh,UP,Northern,Amroha,AR
+Uttar Pradesh,UP,Northern,Auraiya,AU
+Uttar Pradesh,UP,Northern,Azamgarh,AZ
+Uttar Pradesh,UP,Northern,Badaun,BA
+Uttar Pradesh,UP,Northern,Baghpat,BG
+Uttar Pradesh,UP,Northern,Bahraich,BH
+Uttar Pradesh,UP,Northern,Banda,BN
+Uttar Pradesh,UP,Northern,Barabanki,BR
+Uttar Pradesh,UP,Northern,Bareilly,BL
+Uttar Pradesh,UP,Northern,Basti,BT
+Uttar Pradesh,UP,Northern,Bijnor,BJ
+Uttar Pradesh,UP,Northern,Budaun,BU
+Uttar Pradesh,UP,Northern,Bulandshahr,BUS
+Uttar Pradesh,UP,Northern,Chandauli,CH
+Uttar Pradesh,UP,Northern,Chhatarpur,CC
+Uttar Pradesh,UP,Northern,Chitrakoot,CT
+Uttar Pradesh,UP,Northern,Deoria,DE
+Uttar Pradesh,UP,Northern,Dhampur,DH
+Uttar Pradesh,UP,Northern,Etah,ET
+Uttar Pradesh,UP,Northern,Etawah,EW
+Uttar Pradesh,UP,Northern,Faizabad,FA
+Uttar Pradesh,UP,Northern,Farrukhabad,FR
+Uttar Pradesh,UP,Northern,Fatehpur,FT
+Uttar Pradesh,UP,Northern,Firozabad,FZ
+Uttar Pradesh,UP,Northern,Ghaziabad,GH
+Uttar Pradesh,UP,Northern,Ghazipur,GZ
+Uttar Pradesh,UP,Northern,Gonda,GO
+Uttar Pradesh,UP,Northern,Gorakhpur,GK
+Uttar Pradesh,UP,Northern,Guna,GU
+Uttar Pradesh,UP,Northern,Gunnuor,GN
+Uttar Pradesh,UP,Northern,Hamirpur,HR
+Uttar Pradesh,UP,Northern,Hapur,HP
+Uttar Pradesh,UP,Northern,Hardoi,HD
+Uttar Pradesh,UP,Northern,Hathras,HA
+Uttar Pradesh,UP,Northern,Jalaun,JL
+Uttar Pradesh,UP,Northern,Jaunpur,JP
+Uttar Pradesh,UP,Northern,Jehanabad,JH
+Uttar Pradesh,UP,Northern,Jhansi,JS
+Uttar Pradesh,UP,Northern,Kannauj,KJ
+Uttar Pradesh,UP,Northern,Kanpur Dehat,KD
+Uttar Pradesh,UP,Northern,Kanpur Nagar,KN
+Uttar Pradesh,UP,Northern,Kanyakumari,KK
+Uttar Pradesh,UP,Northern,Kasganj,KS
+Uttar Pradesh,UP,Northern,Kaushambi,KM
+Uttar Pradesh,UP,Northern,Keshgarh,KG
+Uttar Pradesh,UP,Northern,Khairagarh,KH
+Uttar Pradesh,UP,Northern,Kheri,KE
+Uttar Pradesh,UP,Northern,Khujauli,KU
+Uttar Pradesh,UP,Northern,Kinnaur,KI
+Uttar Pradesh,UP,Northern,Koh-e-Noor,KN
+Uttar Pradesh,UP,Northern,Konch,KO
+Uttar Pradesh,UP,Northern,Koppal,KP
+Uttar Pradesh,UP,Northern,Korta,KR
+Uttar Pradesh,UP,Northern,Korwa,KW
+Uttar Pradesh,UP,Northern,Kosikot,KT
+Uttar Pradesh,UP,Northern,Kota,KO
+Uttar Pradesh,UP,Northern,Kota Dun,KD
+Uttar Pradesh,UP,Northern,Krishnan,KN
+Uttar Pradesh,UP,Northern,Kullu,KL
+Uttar Pradesh,UP,Northern,Kumbh,KB
+Uttar Pradesh,UP,Northern,Kuninda,KD
+Uttar Pradesh,UP,Northern,Kunnur,KR
+Uttar Pradesh,UP,Northern,Kushan,KS
+Uttar Pradesh,UP,Northern,Kushinagar,KN
+Uttar Pradesh,UP,Northern,Lakhimpur Kheri,LK
+Uttar Pradesh,UP,Northern,Lalitpur,LL
+Uttar Pradesh,UP,Northern,Lamahi,LA
+Uttar Pradesh,UP,Northern,Lamheta,LT
+Uttar Pradesh,UP,Northern,Lamsena,LS
+Uttar Pradesh,UP,Northern,Lamtara,LR
+Uttar Pradesh,UP,Northern,Landi,LD
+Uttar Pradesh,UP,Northern,Lanier,LN
+Uttar Pradesh,UP,Northern,Lansdowne,LS
+Uttar Pradesh,UP,Northern,Lard,LR
+Uttar Pradesh,UP,Northern,Larkana,LA
+Uttar Pradesh,UP,Northern,Larnool,LN
+Uttar Pradesh,UP,Northern,Lasbad,LB
+Uttar Pradesh,UP,Northern,Latapur,LP
+Uttar Pradesh,UP,Northern,Latara,LA
+Uttar Pradesh,UP,Northern,Lathern,LH
+Uttar Pradesh,UP,Northern,Lathiya,LY
+Uttar Pradesh,UP,Northern,Latipur,LT
+Uttar Pradesh,UP,Northern,Latpur,LP
+Uttar Pradesh,UP,Northern,Lattapunj,LP
+Uttar Pradesh,UP,Northern,Latturi,LT
+Uttar Pradesh,UP,Northern,Lattur,LT
+Uttar Pradesh,UP,Northern,Laud,LD
+Uttar Pradesh,UP,Northern,Lauda,LA
+Uttar Pradesh,UP,Northern,Lauhara,LH
+Uttar Pradesh,UP,Northern,Lauhari,LH
+Uttar Pradesh,UP,Northern,Lauharu,LH
+Uttar Pradesh,UP,Northern,Laulpur,LP
+Uttar Pradesh,UP,Northern,Laungi,LG
+Uttar Pradesh,UP,Northern,Launha,LH
+Uttar Pradesh,UP,Northern,Laupur,LP
+Uttar Pradesh,UP,Northern,Lausar,LS
+Uttar Pradesh,UP,Northern,Laut,LT
+Uttar Pradesh,UP,Northern,Lauta,LA
+Uttar Pradesh,UP,Northern,Lautara,LA
+Uttar Pradesh,UP,Northern,Lauthpur,LP
+Uttar Pradesh,UP,Northern,Lautia,LT
+Uttar Pradesh,UP,Northern,Lautpura,LP
+Uttar Pradesh,UP,Northern,Lautpur,LP
+Uttar Pradesh,UP,Northern,Lauturi,LT
+Uttar Pradesh,UP,Northern,Lavada,LA
+Uttar Pradesh,UP,Northern,Lavakot,LK
+Uttar Pradesh,UP,Northern,Lavapur,LP
+Uttar Pradesh,UP,Northern,Lavara,LA
+Uttar Pradesh,UP,Northern,Lavarata,LA
+Uttar Pradesh,UP,Northern,Lavarata Ganj,LG
+Uttar Pradesh,UP,Northern,Lavari,LR
+Uttar Pradesh,UP,Northern,Lavarn,LN
+Uttar Pradesh,UP,Northern,Lavarup,LP
+Uttar Pradesh,UP,Northern,Lavasin,LS
+Uttar Pradesh,UP,Northern,Lavatkot,LK
+Uttar Pradesh,UP,Northern,Lavatpura,LP
+Uttar Pradesh,UP,Northern,Lavatpur,LP
+Uttar Pradesh,UP,Northern,Lavatu,LT
+Uttar Pradesh,UP,Northern,Lavatur,LT
+Uttar Pradesh,UP,Northern,Lavaur,LR
+Uttar Pradesh,UP,Northern,Lavaut,LA
+Uttar Pradesh,UP,Northern,Lavautpur,LP
+Uttar Pradesh,UP,Northern,Lavaval,LV
+Uttar Pradesh,UP,Northern,Lavavarpu,LP
+Uttar Pradesh,UP,Northern,Lavavarpur,LP
+Uttar Pradesh,UP,Northern,Lavavent,LV
+Uttar Pradesh,UP,Northern,Lavawal,LW
+Uttar Pradesh,UP,Northern,Lavawar,LW
+Uttar Pradesh,UP,Northern,Lavawart,LW
+Uttar Pradesh,UP,Northern,Lavawarth,LW
+Uttar Pradesh,UP,Northern,Lavawasa,LW
+Uttar Pradesh,UP,Northern,Lavawasar,LW
+Uttar Pradesh,UP,Northern,Lavawasin,LW
+Uttar Pradesh,UP,Northern,Lavawasin Ganj,LG
+Uttar Pradesh,UP,Northern,Lavawaspur,LP
+Uttar Pradesh,UP,Northern,Lavawastu,LW
+Uttar Pradesh,UP,Northern,Lavawat,LA
+Uttar Pradesh,UP,Northern,Lavawaur,LW
+Uttar Pradesh,UP,Northern,Lavawauli,LW
+Uttar Pradesh,UP,Northern,Lavaway,LW
+Uttar Pradesh,UP,Northern,Lavax,LX
+Uttar Pradesh,UP,Northern,Lavayal,LY
+Uttar Pradesh,UP,Northern,Lavaya,LA
+Uttar Pradesh,UP,Northern,Lavayadpur,LP
+Uttar Pradesh,UP,Northern,Lavayat,LA
+Uttar Pradesh,UP,Northern,Lavayatu,LA
+Uttar Pradesh,UP,Northern,Lavayaur,LA
+Uttar Pradesh,UP,Northern,Lavayal Ganj,LG
+Uttar Pradesh,UP,Northern,Lavayalpur,LP
+Uttar Pradesh,UP,Northern,Lavayanpur,LP
+Uttar Pradesh,UP,Northern,Lavayapur,LP
+Uttar Pradesh,UP,Northern,Lavayar,LR
+Uttar Pradesh,UP,Northern,Lavayari,LR
+Uttar Pradesh,UP,Northern,Lavayaru,LR
+Uttar Pradesh,UP,Northern,Lavayas,LS
+Uttar Pradesh,UP,Northern,Lavayaspur,LP
+Uttar Pradesh,UP,Northern,Lavayu,LY
+Uttar Pradesh,UP,Northern,Lavayupur,LP
+Uttar Pradesh,UP,Northern,Lavayur,LY
+Uttar Pradesh,UP,Northern,Lavazan,LZ
+Uttar Pradesh,UP,Northern,Lavazer,LZ
+Uttar Pradesh,UP,Northern,Lavazpur,LP
+Uttarakhand,UT,Northern,Almora,AL
+Uttarakhand,UT,Northern,Bageshwar,BA
+Uttarakhand,UT,Northern,Champawat,CH
+Uttarakhand,UT,Northern,Dehradun,DE
+Uttarakhand,UT,Northern,Haridwar,HA
+Uttarakhand,UT,Northern,Nainital,NA
+Uttarakhand,UT,Northern,Pauri Garhwal,PG
+Uttarakhand,UT,Northern,Pithoragarh,PI
+Uttarakhand,UT,Northern,Rudraprayag,RU
+Uttarakhand,UT,Northern,Tehri Garhwal,TG
+Uttarakhand,UT,Northern,Udham Singh Nagar,US
+Uttarakhand,UT,Northern,Uttarkashi,UT
+West Bengal,WB,Eastern,Alipurduar,AL
+West Bengal,WB,Eastern,Bankura,BA
+West Bengal,WB,Eastern,Birbhum,BI
+West Bengal,WB,Eastern,Cooch Behar,CB
+West Bengal,WB,Eastern,Darjeeling,DA
+West Bengal,WB,Eastern,Dinajpur,DI
+West Bengal,WB,Eastern,East Burdwan,EB
+West Bengal,WB,Eastern,East Medinipur,EM
+West Bengal,WB,Eastern,Hooghly,HG
+West Bengal,WB,Eastern,Howrah,HW
+West Bengal,WB,Eastern,Jalpaiguri,JA
+West Bengal,WB,Eastern,Jhargram,JH
+West Bengal,WB,Eastern,Kalimpong,KL
+West Bengal,WB,Eastern,Kolkata,KO
+West Bengal,WB,Eastern,Maldah,ML
+West Bengal,WB,Eastern,Medinipur,ME
+West Bengal,WB,Eastern,Murshidabad,MU
+West Bengal,WB,Eastern,Nadia,NA
+West Bengal,WB,Eastern,Naogaon,NG
+West Bengal,WB,Eastern,Nayanganj,NY
+West Bengal,WB,Eastern,North 24 Parganas,N24
+West Bengal,WB,Eastern,North Dinajpur,ND
+West Bengal,WB,Eastern,Paschim Medinipur,PM
+West Bengal,WB,Eastern,Paschim Bardhaman,PB
+West Bengal,WB,Eastern,Purba Bardhaman,PU
+West Bengal,WB,Eastern,Purba Medinipur,PM
+West Bengal,WB,Eastern,Purulia,PR
+West Bengal,WB,Eastern,Siliguri,SI
+West Bengal,WB,Eastern,South 24 Parganas,S24
+West Bengal,WB,Eastern,Sundarbans,SU
+West Bengal,WB,Eastern,Uttar Dinajpur,UT
+West Bengal,WB,Eastern,West Medinipur,WM
